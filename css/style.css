@@ -91,7 +91,7 @@
 
 	a
 	{
-		color: #320046;
+		color: #ff4040;
 		text-shadow: 0 0 0.5px rgba(53,184,143,0.25);
 		-moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
@@ -488,7 +488,7 @@
 			position: relative;
 			display: inline-block;
 			border: 0;
-			background: #320046;
+			background: #ff4040;
 			color: #fff;
 			text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 			cursor: pointer;
@@ -852,7 +852,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #320046 url('images/banner.svg') bottom center no-repeat;
+		background: #ff4040 url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -860,7 +860,7 @@
 
 		#banner .button
 		{
-			color: #320046;
+			color: #ff4040;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
 		}
 
@@ -904,6 +904,7 @@
 	#footer
 	{
 		position: relative;
+		background: #ff4040 url('images/banner.svg') bottom center;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
@@ -930,7 +931,7 @@
 		
 			#footer a:hover
 			{
-				color: #320046;
+				color: #ff4040;
 				text-shadow: 0 0 0.5px rgba(69,200,159,0.25);
 				border-bottom-color: rgba(53,184,143,0.5);
 			}
