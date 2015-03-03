@@ -14,8 +14,8 @@
 
 	body
 	{
-		background-color:		#183026;
-		background-image:		url('../images/bg.jpg');
+		background-color:		#ffffff;
+		/*background-image:		url('../images/bg.jpg');*/
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
@@ -143,6 +143,7 @@
 	header
 	{
 		margin-bottom: 1em;
+
 	}
 	
 		header p
@@ -151,7 +152,25 @@
 			margin: 0.5em 0 0 0;
 			padding: 0 0 1.5em 0;
 		}
-		
+
+	.androidDownload{
+			width:149px;
+			height:45px;
+			display: inline-block;
+			background:url(../images/Android.png);
+			background-position:0px 0px;
+			background-repeat:no-repeat;
+			top: 200px;
+	}
+	.iOSDownload{
+			width:149px;
+			height:45px;
+			display: inline-block;
+			background:url(../images/apple.png);
+			background-position:0px 0px;
+			top: 200px;
+	}
+
 	footer
 	{
 		margin-top: 1em;
@@ -186,6 +205,12 @@
 			.row > article
 			{
 				margin-bottom: 0;
+			}
+
+			section.header
+			{
+				background-image:		url('../images/bg_top.jpg');
+				background-repeat: no-repeat
 			}
 
 	/* Image */
@@ -761,6 +786,21 @@
 			display: none;
 		}
 
+/*	#front_header .text a
+	{
+		text-align: center;
+		color: #ff4040;
+		text-shadow: 0 0 0.5px rgba(53,184,143,0.25);
+		-moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-o-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
+		text-decoration: none;
+		border-bottom: dotted 1px rgba(53,184,143,0.5);
+	}*/
+
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -774,6 +814,11 @@
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
+		background-image:		url('../images/bg_top.jpg');
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 100%;
+
 	}
 	
 		#header header
@@ -904,7 +949,6 @@
 	#footer
 	{
 		position: relative;
-		background: #ff4040 url('images/banner.svg') bottom center;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
@@ -947,7 +991,8 @@
 		
 		#footer .copyright
 		{
-			margin: 0 0 9em 0;
+			background: #ff4040 url('images/banner.svg') bottom center;
+			/*margin: 0 0 9em 0;*/
 			font-size: 0.8em;
 		}
 		
