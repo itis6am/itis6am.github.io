@@ -1,0 +1,160 @@
+body
+{
+	background: #eff5f8;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+header
+{
+	background: #1b9dcf;
+	position: relative;
+	z-index: 99;
+}
+.logo
+{
+	padding: 30px 0 40px;
+}
+.logo img
+{
+	max-width: 55%;
+}
+.down-btn
+{
+	background: url('http://7xif9w.com1.z0.glb.clouddn.com/images/android.gif') no-repeat center center
+#fff;
+	background-size: 130px 43px;
+	border-radius: 6px;
+	box-shadow: 0 0 6px rgba(0,0,0,.3);
+	display: none;
+	height: 60px;
+	moz-border-radius: 6px;
+	moz-box-shadow: 0 0 6px rgba(0,0,0,.3);
+	webkit-border-radius: 6px;
+	webkit-box-shadow: 0 0 6px rgba(0,0,0,.3);
+	width: 190px;
+}
+.btn-android
+{
+	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/android.gif');
+}
+.btn-ios
+{
+	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/ios.png');
+}
+.android .btn-android
+{
+	display: inline-block;
+}
+.ios .btn-ios
+{
+	display: inline-block;
+}
+.normal .btn-ios,.normal .btn-android
+{
+	background-size: 100px 33px;
+	display: inline-block;
+	height: 45px;
+	margin: 0 3px;
+	width: 130px;
+}
+.con p img
+{
+	max-width: 98%;
+}
+footer
+{
+	background-size: 100%;
+	margin-top: 30px;
+	padding: 35px 0 75px;
+	webkit-background-size: 100%;
+}
+.weixin
+{
+	background: rgba(0,0,0,.6);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.weixin
+.t
+{
+	background: url('http://hlj-img.b0.upaiyun.com/zmw/upload/20141017/5d9ab87f.weixin-arrow.gif') no-repeat right 8px #fff;
+	background-size: 45px;
+	box-sizing: border-box;
+	color: #70655f;
+	font-size: 14px;
+	left: 0;
+	line-height: 20px;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.weixin strong
+{
+	color: #f35c43;
+}
+.coupon img
+{
+	margin: 32px 0;
+	max-width: 56%;
+}
+.nav_item
+{
+	background: #0074a1;
+}
+.nav_item *
+{
+	margin: 0;
+	padding: 0;
+}
+.nav_item a:hover,.nav_item a:active
+{
+	background: #016a92;
+}
+.nav_item ul li
+{
+	box-sizing: border-box;
+	float: left;
+	list-style: none;
+	text-align: center;
+	width: 50%;
+}
+.nav_item ul li:first-child
+{
+	border-right: solid 1px #4d9ebd;
+}
+.nav_item ul li:last-child
+{
+	border-left: solid 1px #004e6d;
+}
+.nav_item ul li>div
+{
+	padding: 25px 10px;
+}
+.nav_item ul li>div img
+{
+	max-height: 2.5em;
+}
+.cf:before,.cf:after
+{
+	content: "";
+	display: table;
+}
+.cf:after
+{
+	clear: both;
+}
+.cf
+{
+	zoom: 1;
+}
+.gallary
+{
+	hspace: 10;
+}
