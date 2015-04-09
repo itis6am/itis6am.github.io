@@ -1,46 +1,68 @@
 body
 {
-	background: #eff5f8;
+	background: #ffffff;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 header
 {
-	background: #1b9dcf;
+	background: #ffffff;
 	position: relative;
 	z-index: 99;
 }
+
+.headtop
+{
+	width: 640px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+
 .logo
 {
 	padding: 30px 0 40px;
+	margin-right: 20px;
+	overflow: auto;
 }
 .logo img
 {
 	max-width: 55%;
 }
+
+.headimage
+{
+	float: left;
+}
+
+.headimage img
+{
+	max-width: 100%;
+}
+
 .down-btn
 {
 	background: url('http://7xif9w.com1.z0.glb.clouddn.com/images/android.gif') no-repeat center center
 #fff;
-	background-size: 130px 43px;
+	background-size: 380px 93px;
 	border-radius: 6px;
 	box-shadow: 0 0 6px rgba(0,0,0,.3);
 	display: none;
-	height: 60px;
+	height: 95px;
 	moz-border-radius: 6px;
 	moz-box-shadow: 0 0 6px rgba(0,0,0,.3);
 	webkit-border-radius: 6px;
 	webkit-box-shadow: 0 0 6px rgba(0,0,0,.3);
-	width: 190px;
+	width: 382px;
 }
 .btn-android
 {
-	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/android.gif');
+	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/bt_down_android.png');
 }
 .btn-ios
 {
-	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/ios.png');
+	background-image: url('http://7xif9w.com1.z0.glb.clouddn.com/images/bt_down_ios.png');
 }
 .android .btn-android
 {
@@ -52,15 +74,19 @@ header
 }
 .normal .btn-ios,.normal .btn-android
 {
-	background-size: 100px 33px;
+	background-size: 380px 92px;
 	display: inline-block;
-	height: 45px;
+	height: 95px;
 	margin: 0 3px;
-	width: 130px;
+	width: 382px;
 }
 .con p img
 {
 	max-width: 98%;
+}
+.bottom
+{
+	margin-top: -50px;
 }
 footer
 {
@@ -83,7 +109,7 @@ footer
 .weixin
 .t
 {
-	background: url('http://hlj-img.b0.upaiyun.com/zmw/upload/20141017/5d9ab87f.weixin-arrow.gif') no-repeat right 8px #fff;
+	/*background: url('http://hlj-img.b0.upaiyun.com/zmw/upload/20141017/5d9ab87f.weixin-arrow.gif') no-repeat right 8px #fff;*/
 	background-size: 45px;
 	box-sizing: border-box;
 	color: #70655f;
@@ -156,5 +182,5 @@ footer
 }
 .gallary
 {
-	hspace: 10;
+	margin-top: 60px;
 }

@@ -1,7 +1,7 @@
 /**
 	支持按渠道下载
 **/	
-	var apkURL = "http://www.itis6am.com/upload/android/qcrl.apk"; 
+	var apkURL = "http://itis6am.b0.upaiyun.com/upload/android/qcrl.apk"; 
     
 	// var channel = "";
         
