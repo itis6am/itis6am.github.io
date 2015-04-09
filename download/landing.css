@@ -109,7 +109,7 @@ footer
 .weixin
 .t
 {
-	/*background: url('http://hlj-img.b0.upaiyun.com/zmw/upload/20141017/5d9ab87f.weixin-arrow.gif') no-repeat right 8px #fff;*/
+	background: url('./bg_white.png') no-repeat right 8px #fff;
 	background-size: 45px;
 	box-sizing: border-box;
 	color: #70655f;
