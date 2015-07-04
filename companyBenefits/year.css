@@ -4,7 +4,7 @@ body{
 }
 .title{
 	font-weight:bold;
-	font-size:28px;
+	font-size:14px;
 	color:#666;
 	text-align:center;
 }
@@ -14,7 +14,7 @@ body{
 	background:#F00;
 	font-weight:bolder;
 	color:#FFF;
-	font-size:32px;
+	font-size:16px;
 	text-align:center;
 }
 
@@ -22,7 +22,7 @@ body{
 	color:#000;
 	margin-left:10px;
 	font-weight:bold;
-	font-size:24px;
+	font-size:12px;
 }
 
 .content{
@@ -30,5 +30,5 @@ body{
 	margin-top:5px;
 	margin-left:10px;
 	font-weight:bold;
-	font-size:18px;
+	font-size:10px;
 }
