@@ -82,6 +82,18 @@
 			return false;
 		}
 		var _link = event.href;
+		// download the package according to the channel 
+		var channel = "";
+	     channel = getURLParameters("channel");
+	     if(channel == null) {
+	     	channel = "";
+	     }   
+	     if(channel != null && channel.length > 0 ) {
+	         // apkURL = "http://hlj-app.b0.upaiyun.com/zmw/upload/android-package/app/" + channel + "/helijia.apk";
+	         _link = "http://cdnfile.itis6am.com/"+channel+"/qcrl.apk"
+	     }else{
+	 		_link = "http://cdnfile.itis6am.com/qcrl.apk"
+	 	}
 		window.location.href = _link;
 		};
 
