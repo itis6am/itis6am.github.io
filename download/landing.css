@@ -14,7 +14,7 @@ header
 
 .headtop
 {
-	width: 640px;
+	/*width: 640px;*/
 	margin: 0px auto;
 	text-align: center;
 
@@ -28,7 +28,7 @@ header
 }
 .logo img
 {
-	max-width: 55%;
+	/*max-width: 55%;*/
 }
 
 .headimage
@@ -182,5 +182,6 @@ footer
 }
 .gallary
 {
-	margin-top: 60px;
+	margin-top: 160px;
+	margin-bottom: 100px
 }
